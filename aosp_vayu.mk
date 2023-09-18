@@ -18,7 +18,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
 
 # Google Camera
-$(call inherit-product-if-exists, vendor/Gcam/config.mk)
+$(call inherit-product-if-exists, vendor/mgc/config.mk)
 
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
